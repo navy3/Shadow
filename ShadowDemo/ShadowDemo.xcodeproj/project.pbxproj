@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55FF6D2816883FF700135742 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FF6D2716883FF700135742 /* UIKit.framework */; };
+		55FF6D2A16883FF700135742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FF6D2916883FF700135742 /* Foundation.framework */; };
+		55FF6D2C16883FF700135742 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FF6D2B16883FF700135742 /* CoreGraphics.framework */; };
+		55FF6D3216883FF700135742 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D3016883FF700135742 /* InfoPlist.strings */; };
+		55FF6D3416883FF700135742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D3316883FF700135742 /* main.m */; };
+		55FF6D3816883FF700135742 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D3716883FF700135742 /* TAAppDelegate.m */; };
+		55FF6D3A16883FF700135742 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D3916883FF700135742 /* Default.png */; };
+		55FF6D3C16883FF700135742 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D3B16883FF700135742 /* Default@2x.png */; };
+		55FF6D3E16883FF700135742 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D3D16883FF700135742 /* Default-568h@2x.png */; };
+		55FF6D481688406B00135742 /* navigationBarBackgroundRetro.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D461688406B00135742 /* navigationBarBackgroundRetro.png */; };
+		55FF6D491688406B00135742 /* navigationBarBackgroundRetro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D471688406B00135742 /* navigationBarBackgroundRetro@2x.png */; };
+		55FF6D4C168840A500135742 /* UINavigationBar+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D4B168840A500135742 /* UINavigationBar+BackgroundImage.m */; };
+		55FF6D4F168840B700135742 /* UIToolbar+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D4E168840B700135742 /* UIToolbar+BackgroundImage.m */; };
+		55FF6D56168840D100135742 /* UINavigationBar+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D55168840D100135742 /* UINavigationBar+Shadow.m */; };
+		55FF6D5A168841C500135742 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D58168841C500135742 /* HomeViewController.m */; };
+		55FF6D5B168841C500135742 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D59168841C500135742 /* HomeViewController.xib */; };
+		55FF6D5D1688439900135742 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FF6D5C1688439900135742 /* QuartzCore.framework */; };
+		55FF6D60168843CF00135742 /* UIToolbar+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D5F168843CF00135742 /* UIToolbar+Shadow.m */; };
+		55FF6D681688459900135742 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D671688459900135742 /* TableView.m */; };
+		55FF6D6C168845C200135742 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D6A168845C200135742 /* TableViewController.m */; };
+		55FF6D6D168845C200135742 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6D6B168845C200135742 /* TableViewController.xib */; };
+		55FF6D70168846B500135742 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D6F168846B500135742 /* GradientView.m */; };
+		55FF6D781688483E00135742 /* UIBezierPath+ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D771688483D00135742 /* UIBezierPath+ShadowPath.m */; };
+		55FF6D7C1688487600135742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D7B1688487600135742 /* ViewController.m */; };
+		55FF6D8416884CC300135742 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6D8316884CC300135742 /* UIView+Shadow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55FF6D2316883FF700135742 /* ShadowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FF6D2716883FF700135742 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55FF6D2916883FF700135742 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55FF6D2B16883FF700135742 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55FF6D2F16883FF700135742 /* ShadowDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowDemo-Info.plist"; sourceTree = "<group>"; };
+		55FF6D3116883FF700135742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55FF6D3316883FF700135742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55FF6D3516883FF700135742 /* ShadowDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowDemo-Prefix.pch"; sourceTree = "<group>"; };
+		55FF6D3616883FF700135742 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		55FF6D3716883FF700135742 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		55FF6D3916883FF700135742 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		55FF6D3B16883FF700135742 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		55FF6D3D16883FF700135742 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		55FF6D461688406B00135742 /* navigationBarBackgroundRetro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackgroundRetro.png; sourceTree = "<group>"; };
+		55FF6D471688406B00135742 /* navigationBarBackgroundRetro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBarBackgroundRetro@2x.png"; sourceTree = "<group>"; };
+		55FF6D4A168840A500135742 /* UINavigationBar+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundImage.h"; sourceTree = "<group>"; };
+		55FF6D4B168840A500135742 /* UINavigationBar+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundImage.m"; sourceTree = "<group>"; };
+		55FF6D4D168840B700135742 /* UIToolbar+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+BackgroundImage.h"; sourceTree = "<group>"; };
+		55FF6D4E168840B700135742 /* UIToolbar+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+BackgroundImage.m"; sourceTree = "<group>"; };
+		55FF6D54168840D100135742 /* UINavigationBar+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Shadow.h"; sourceTree = "<group>"; };
+		55FF6D55168840D100135742 /* UINavigationBar+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Shadow.m"; sourceTree = "<group>"; };
+		55FF6D57168841C500135742 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		55FF6D58168841C500135742 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		55FF6D59168841C500135742 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		55FF6D5C1688439900135742 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55FF6D5E168843CF00135742 /* UIToolbar+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Shadow.h"; sourceTree = "<group>"; };
+		55FF6D5F168843CF00135742 /* UIToolbar+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Shadow.m"; sourceTree = "<group>"; };
+		55FF6D661688459900135742 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		55FF6D671688459900135742 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		55FF6D69168845C200135742 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		55FF6D6A168845C200135742 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		55FF6D6B168845C200135742 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		55FF6D6E168846B500135742 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		55FF6D6F168846B500135742 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		55FF6D761688483D00135742 /* UIBezierPath+ShadowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+ShadowPath.h"; sourceTree = "<group>"; };
+		55FF6D771688483D00135742 /* UIBezierPath+ShadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+ShadowPath.m"; sourceTree = "<group>"; };
+		55FF6D7A1688487600135742 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55FF6D7B1688487600135742 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55FF6D8216884CC300135742 /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		55FF6D8316884CC300135742 /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FF6D2016883FF700135742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FF6D5D1688439900135742 /* QuartzCore.framework in Frameworks */,
+				55FF6D2816883FF700135742 /* UIKit.framework in Frameworks */,
+				55FF6D2A16883FF700135742 /* Foundation.framework in Frameworks */,
+				55FF6D2C16883FF700135742 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55FF6D1816883FF700135742 = {
+			isa = PBXGroup;
+			children = (
+				55FF6D5C1688439900135742 /* QuartzCore.framework */,
+				55FF6D2D16883FF700135742 /* ShadowDemo */,
+				55FF6D2616883FF700135742 /* Frameworks */,
+				55FF6D2416883FF700135742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FF6D2416883FF700135742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D2316883FF700135742 /* ShadowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FF6D2616883FF700135742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D2716883FF700135742 /* UIKit.framework */,
+				55FF6D2916883FF700135742 /* Foundation.framework */,
+				55FF6D2B16883FF700135742 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FF6D2D16883FF700135742 /* ShadowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D8116884CB100135742 /* view */,
+				55FF6D791688484100135742 /* bezier */,
+				55FF6D611688453700135742 /* tableview */,
+				55FF6D451688404200135742 /* toolbar */,
+				55FF6D441688403600135742 /* navigationbar */,
+				55FF6D3616883FF700135742 /* TAAppDelegate.h */,
+				55FF6D3716883FF700135742 /* TAAppDelegate.m */,
+				55FF6D2E16883FF700135742 /* Supporting Files */,
+				55FF6D57168841C500135742 /* HomeViewController.h */,
+				55FF6D58168841C500135742 /* HomeViewController.m */,
+				55FF6D59168841C500135742 /* HomeViewController.xib */,
+				55FF6D69168845C200135742 /* TableViewController.h */,
+				55FF6D6A168845C200135742 /* TableViewController.m */,
+				55FF6D6B168845C200135742 /* TableViewController.xib */,
+				55FF6D7A1688487600135742 /* ViewController.h */,
+				55FF6D7B1688487600135742 /* ViewController.m */,
+			);
+			path = ShadowDemo;
+			sourceTree = "<group>";
+		};
+		55FF6D2E16883FF700135742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D461688406B00135742 /* navigationBarBackgroundRetro.png */,
+				55FF6D471688406B00135742 /* navigationBarBackgroundRetro@2x.png */,
+				55FF6D2F16883FF700135742 /* ShadowDemo-Info.plist */,
+				55FF6D3016883FF700135742 /* InfoPlist.strings */,
+				55FF6D3316883FF700135742 /* main.m */,
+				55FF6D3516883FF700135742 /* ShadowDemo-Prefix.pch */,
+				55FF6D3916883FF700135742 /* Default.png */,
+				55FF6D3B16883FF700135742 /* Default@2x.png */,
+				55FF6D3D16883FF700135742 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55FF6D441688403600135742 /* navigationbar */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D54168840D100135742 /* UINavigationBar+Shadow.h */,
+				55FF6D55168840D100135742 /* UINavigationBar+Shadow.m */,
+				55FF6D4A168840A500135742 /* UINavigationBar+BackgroundImage.h */,
+				55FF6D4B168840A500135742 /* UINavigationBar+BackgroundImage.m */,
+			);
+			name = navigationbar;
+			sourceTree = "<group>";
+		};
+		55FF6D451688404200135742 /* toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D4D168840B700135742 /* UIToolbar+BackgroundImage.h */,
+				55FF6D4E168840B700135742 /* UIToolbar+BackgroundImage.m */,
+				55FF6D5E168843CF00135742 /* UIToolbar+Shadow.h */,
+				55FF6D5F168843CF00135742 /* UIToolbar+Shadow.m */,
+			);
+			name = toolbar;
+			sourceTree = "<group>";
+		};
+		55FF6D611688453700135742 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D6E168846B500135742 /* GradientView.h */,
+				55FF6D6F168846B500135742 /* GradientView.m */,
+				55FF6D661688459900135742 /* TableView.h */,
+				55FF6D671688459900135742 /* TableView.m */,
+			);
+			name = tableview;
+			sourceTree = "<group>";
+		};
+		55FF6D791688484100135742 /* bezier */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D761688483D00135742 /* UIBezierPath+ShadowPath.h */,
+				55FF6D771688483D00135742 /* UIBezierPath+ShadowPath.m */,
+			);
+			name = bezier;
+			sourceTree = "<group>";
+		};
+		55FF6D8116884CB100135742 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6D8216884CC300135742 /* UIView+Shadow.h */,
+				55FF6D8316884CC300135742 /* UIView+Shadow.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55FF6D2216883FF700135742 /* ShadowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FF6D4116883FF700135742 /* Build configuration list for PBXNativeTarget "ShadowDemo" */;
+			buildPhases = (
+				55FF6D1F16883FF700135742 /* Sources */,
+				55FF6D2016883FF700135742 /* Frameworks */,
+				55FF6D2116883FF700135742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowDemo;
+			productName = ShadowDemo;
+			productReference = 55FF6D2316883FF700135742 /* ShadowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FF6D1A16883FF700135742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = navy;
+			};
+			buildConfigurationList = 55FF6D1D16883FF700135742 /* Build configuration list for PBXProject "ShadowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55FF6D1816883FF700135742;
+			productRefGroup = 55FF6D2416883FF700135742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FF6D2216883FF700135742 /* ShadowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FF6D2116883FF700135742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FF6D3216883FF700135742 /* InfoPlist.strings in Resources */,
+				55FF6D3A16883FF700135742 /* Default.png in Resources */,
+				55FF6D3C16883FF700135742 /* Default@2x.png in Resources */,
+				55FF6D3E16883FF700135742 /* Default-568h@2x.png in Resources */,
+				55FF6D481688406B00135742 /* navigationBarBackgroundRetro.png in Resources */,
+				55FF6D491688406B00135742 /* navigationBarBackgroundRetro@2x.png in Resources */,
+				55FF6D5B168841C500135742 /* HomeViewController.xib in Resources */,
+				55FF6D6D168845C200135742 /* TableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FF6D1F16883FF700135742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FF6D3416883FF700135742 /* main.m in Sources */,
+				55FF6D3816883FF700135742 /* TAAppDelegate.m in Sources */,
+				55FF6D4C168840A500135742 /* UINavigationBar+BackgroundImage.m in Sources */,
+				55FF6D4F168840B700135742 /* UIToolbar+BackgroundImage.m in Sources */,
+				55FF6D56168840D100135742 /* UINavigationBar+Shadow.m in Sources */,
+				55FF6D5A168841C500135742 /* HomeViewController.m in Sources */,
+				55FF6D60168843CF00135742 /* UIToolbar+Shadow.m in Sources */,
+				55FF6D681688459900135742 /* TableView.m in Sources */,
+				55FF6D6C168845C200135742 /* TableViewController.m in Sources */,
+				55FF6D70168846B500135742 /* GradientView.m in Sources */,
+				55FF6D781688483E00135742 /* UIBezierPath+ShadowPath.m in Sources */,
+				55FF6D7C1688487600135742 /* ViewController.m in Sources */,
+				55FF6D8416884CC300135742 /* UIView+Shadow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55FF6D3016883FF700135742 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55FF6D3116883FF700135742 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55FF6D3F16883FF700135742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55FF6D4016883FF700135742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FF6D4216883FF700135742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowDemo/ShadowDemo-Prefix.pch";
+				INFOPLIST_FILE = "ShadowDemo/ShadowDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55FF6D4316883FF700135742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowDemo/ShadowDemo-Prefix.pch";
+				INFOPLIST_FILE = "ShadowDemo/ShadowDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FF6D1D16883FF700135742 /* Build configuration list for PBXProject "ShadowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FF6D3F16883FF700135742 /* Debug */,
+				55FF6D4016883FF700135742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FF6D4116883FF700135742 /* Build configuration list for PBXNativeTarget "ShadowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FF6D4216883FF700135742 /* Debug */,
+				55FF6D4316883FF700135742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FF6D1A16883FF700135742 /* Project object */;
+}
